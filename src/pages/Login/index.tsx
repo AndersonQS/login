@@ -1,8 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../contexts/Auth/AuthContext';
-
-// import { Container } from './styles';
+import './styles.css';
 
 const Login = () => {
   const auth = useContext(AuthContext);
@@ -21,7 +20,7 @@ const Login = () => {
     }
   };
   return (
-    <div>
+    <div className="login">
       <h2>Página Fechada</h2>
       <input
         type="text"
