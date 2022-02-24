@@ -1,8 +1,21 @@
+.wrap-login{
+  width: 390px;
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 77px 55px 33px 55px;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
 .login {
 
-display: flex;
-border: 1px solid ;
-flex-direction: column ;
-align-items: center;
+  height: 100%;
+  width: 100%;
+  border: 20px ;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }

@@ -20,6 +20,8 @@ const Login = () => {
     }
   };
   return (
+    <div className = "wrap-login">
+
     <div className="login">
       <h2>Página Fechada</h2>
       <input
@@ -35,6 +37,7 @@ const Login = () => {
         placeholder="Digite sua senha" />
       <button onClick={handleLogin}>Logar</button>
     </div>
+        </div>
   );
 }
 
